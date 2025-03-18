@@ -1,143 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<style>
-body{
-background-color:linen;
-}
-h1{
-color:maroon;
-margin-left:40px;
-}
-</style>
-</head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alphonce Okoth Omollo - CV</title>
-    <style>
-        body {
-            font-family: sans-serif;
-            margin: 0; /* Remove default margins */
-            background-color: #f0f0f0; /* Light gray background */
-        }
-        nav {
-            background-color: #333; /* Dark gray menu background */
-            color: white;
-            padding: 10px;
-            text-align: center; /* Center the menu items */
-        }
-        nav a {
-            color: white;
-            text-decoration: none;
-            margin: 0 15px; /* Add spacing between menu items */
-            padding: 5px 10px; /* Add padding to menu items */
-        }
-        nav a:hover {
-            background-color: #555; /* Slightly lighter background on hover */
-        }
-
-        #home-content {
-            padding: 20px;
-        }
-        #home-content img {
-            float: left; /* Image on the left */
-            margin-right: 20px;
-            width: 200px; /* Adjust image size as needed */
-        }
-        #home-content hr {
-            clear: both; /* Clear float for the horizontal rule */
-            margin-top: 20px;
-        }
-        #home-content p {
-            margin-bottom: 15px; /* Add spacing between paragraphs */
-        }
-
-        table {
-            width: 80%;
-            margin: 20px auto;
-            border-collapse: collapse;
-            border: 1px solid green;
-        }
-        th {
-            background-color: lightblue;
-            border: 1px solid green;
-            padding: 8px;
-            text-align: left;
-        }
-        td {
-            border: 1px solid green;
-            padding: 8px;
-        }
-
-        #contact-content {
-            padding: 20px;
-        }
-        #contact-content hr {
-            margin-top: 20px;
-        }
-
-        #hobbies-content {
-            background-color: lightblue;
-            padding: 20px;
-        }
-        #hobbies-content ol, #hobbies-content ul {
-            margin-left: 20px; /* Indent lists */
-        }
-
-        footer {
-            background-color: #333;
-            color: green;
-            text-align: center;
-            padding: 10px;
-            position: relative; /* Needed for sticky footer */
-            bottom: 0;
-            width: 100%;
-        }
-         #name-banner {
-            font-size: 48px; /* Big font size */
-            animation: moveLeftToRight 10s linear infinite; /* Animation */
-            background-color: lightgray;
-            padding: 10px;
-            text-align: center;
-        }
-        @keyframes moveLeftToRight {
-            0% { transform: translateX(-100%); }
-            100% { transform: translateX(100%); }
-        }
-        img{
-            width: 300px;
-            border-radius: 50px;
-        }
-    </style>
+    <title>ABC IT Consultancy - Home</title>
+    <meta name="description" content="ABC IT Consultancy, your trusted IT partner.">
+    <meta name="keywords" content="IT consultancy, network, cybersecurity, cloud solutions">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    <nav>
-        <a href="#home">Home</a>
-        <a href="#experience">Personal Experience</a>
-        <a href="#contact">Contact</a>
-        <a href="#hobbies">Hobbies</a>
-    </nav>
-    <div id="name-banner">Alphonce Okoth Omollo</div>
-
-    <section id="home-content">
-        <img src="alo.jpg" alt="al">
-        <hr>
-        <p>My name is Alphonce Okoth Omollo and I am currently pursuing a Bachelor of Applied Computer Science at Kisii University. I have a strong interest in software development, particularly in Java and web technologies. My background includes a solid foundation in programming, computer security, and data management. After completing my degree, I hope to work as a software developer, contributing to the creation of innovative and secure applications. I am particularly interested in cybersecurity and aspire to specialize in this field, helping to protect systems and data from evolving threats.  I am a highly motivated and results-oriented individual with a passion for technology and a strong desire to learn and grow in the field of Somputer Science.
-		</p>
-    </section>
-    <p>personal experience page<a href="personal experience.html">pesonal experience page</a></p>
-    <p>contact me: <a href="contacts.html">contacts </a></p>
-    <p>my hobbies<a href="hobbies.html">hobbies</a></p>
-
-   
-
-   
-
-    <nav>  </nav>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <h1>Welcome to ABC IT Consultancy</h1>
+            <p>We provide expert IT solutions for your business, helping you stay ahead in today's digital world.</p>
+            <a href="contact.html" class="cta-button">Get a Free Consultation</a>
+        </section>
+        <section class="services-preview">
+            <h2>Our Key Services</h2>
+            <div class="service-cards">
+                <div class="service-card">
+                    <h3>Network Infrastructure</h3>
+                    <p>Reliable and scalable network solutions to support your business operations.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Cybersecurity</h3>
+                    <p>Protecting your business from cyber threats with advanced security measures.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Cloud Solutions</h3>
+                    <p>Leveraging the power of the cloud to improve efficiency and reduce costs.</p>
+                </div>
+            </div>
+        </section>
+    </main>
     <footer>
-        &copy; 2025 Alphonce Omollo. All rights reserved.
+        <p>&copy; 2025 ABC IT Consultancy</p>
     </footer>
-
 </body>
 </html>
